@@ -14,7 +14,7 @@ function authIsOwner(request, response) {
     cookies = cookie.parse(request.headers.cookie);
   }
   // 보안적으로 위험한 코드 (세션 사용해야 함)
-  if (cookies.email === 'egoing777@gmail.com' && cookies.password === '111111') {
+  if (cookies.email === 'boyoung@gmail.com' && cookies.password === '111111') {
     isOwner = true;
   }
   return isOwner;
